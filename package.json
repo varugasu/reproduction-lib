@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build": "unbuild",
-    "prepack": "build"
+    "prepack": "unbuild"
   },
   "license": "MIT",
   "dependencies": {
