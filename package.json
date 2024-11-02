@@ -1,5 +1,5 @@
 {
-  "name": "production-lib",
+  "name": "@varugasu/production-lib",
   "version": "1.0.0",
   "type": "module",
   "exports": {
