@@ -1,5 +1,5 @@
 {
-  "name": "reproduction-lib",
+  "name": "production-lib",
   "version": "1.0.0",
   "type": "module",
   "exports": {
@@ -9,6 +9,10 @@
       "require": "./dist/*/index.cjs"
     }
   },
+  "repository": {
+    "url": "https://github.com/varugasu/reproduction-lib",
+    "type": "git"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
@@ -17,7 +21,8 @@
     "package.json"
   ],
   "scripts": {
-    "build": "unbuild"
+    "build": "unbuild",
+    "prepack": "build"
   },
   "license": "MIT",
   "dependencies": {
