@@ -1,10 +1,11 @@
 {
   "name": "@varugasu/reproduction-lib",
-  "version": "1.0.1",
+  "version": "1.0.2-fix",
   "type": "module",
   "exports": {
     "./*": {
       "types": "./dist/*/index.d.ts",
+      "node": "./dist/*/index.cjs",
       "import": "./dist/*/index.mjs",
       "require": "./dist/*/index.cjs"
     }
